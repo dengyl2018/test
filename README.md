@@ -5,3 +5,7 @@
 开始使用github
 目标：1、熟悉一些常用的代码概念
 2、将代码间的概念进行整合升级
+
+git add .
+git commit -m"test"
+git push
