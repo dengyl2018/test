@@ -1,4 +1,12 @@
 #coding=utf-8
+"""
+预测你的储蓄（在某地区）可以购买多大面积的房子
+输入：13个维度的归一化的数据，房子相关数据
+输出：1个维度的数据，房子的价格
+act:激活函数，没有采用softmax作为激活函数
+损失函数：均方误差
+优化方法：梯度下降SGD
+"""
 
 import paddle.fluid as fluid
 import paddle
@@ -23,9 +31,13 @@ test_reader = paddle.batch(
                           buf_size=BUF_SIZE),
     batch_size=BATCH_SIZE)  
 #用于打印，查看uci_housing数据
-train_data=paddle.dataset.uci_housing.train();
+train_data=paddle.dataset.uci_housing.train()
 sampledata=next(train_data())
 print(sampledata)
+#用于打印，查看uci_housing数据
+train_data_test=paddle.dataset.uci_housing.test()
+sampledatatest = next(train_data_test())
+print(sampledatatest[0])
 
 #定义张量变量x，表示13维的特征值
 x = fluid.layers.data(name='x', shape=[13], dtype='float32')
@@ -34,42 +46,34 @@ y = fluid.layers.data(name='y', shape=[1], dtype='float32')
 #定义一个简单的线性网络,连接输入和输出的全连接层
 #input:输入tensor;
 #size:该层输出单元的数目
-#act:激活函数
+#act:激活函数，没有采用softmax作为激活函数
 y_predict=fluid.layers.fc(input=x,size=1,act=None)
 
-
+# 损失函数
 cost = fluid.layers.square_error_cost(input=y_predict, label=y) #求一个batch的损失值
 avg_cost = fluid.layers.mean(cost)                              #对损失值求平均值
 
+# 优化函数：梯度下降
+# fluid.layers 中的所有layer函数可以向 default_main_program 中添加算子和变量。
 test_program = fluid.default_main_program().clone(for_test=True)
 optimizer = fluid.optimizer.SGDOptimizer(learning_rate=0.001)
 opts = optimizer.minimize(avg_cost)
 
+# 执行器初始化
 use_cuda = False                         #use_cuda为False,表示运算场所为CPU;use_cuda为True,表示运算场所为GPU           
 place = fluid.CUDAPlace(0) if use_cuda else fluid.CPUPlace()
 exe = fluid.Executor(place)              #创建一个Executor实例exe
 exe.run(fluid.default_startup_program()) #Executor的run()方法执行startup_program(),进行参数初始化
 
-# 定义输入数据维度
+# 输入数据准备：定义输入数据维度
 feeder = fluid.DataFeeder(place=place, feed_list=[x, y])#feed_list:向模型输入的变量表或变量表名
 
 iter=0
 iters=[]
 train_costs=[]
-
-def draw_train_process(iters,train_costs):
-    title="training cost"
-    import matplotlib.pyplot as plt
-    plt.title(title, fontsize=24)
-    plt.xlabel("iter", fontsize=14)
-    plt.ylabel("cost", fontsize=14)
-    plt.plot(iters, train_costs,color='red',label='training cost') 
-    plt.grid()
-    plt.show()
-
-EPOCH_NUM=50
-model_save_dir = "/home/aistudio/work/fit_a_line.inference.model"
-
+model_save_dir = "D:/git/testme/data/fit_a_line.inference.model"
+EPOCH_NUM = 50
+# 开始训练
 for pass_id in range(EPOCH_NUM):                                  #训练EPOCH_NUM轮
     # 开始训练并输出最后一个batch的损失值
     train_cost = 0
@@ -77,9 +81,9 @@ for pass_id in range(EPOCH_NUM):                                  #训练EPOCH_N
         train_cost = exe.run(program=fluid.default_main_program(),#运行主程序
                              feed=feeder.feed(data),              #喂入一个batch的训练数据，根据feed_list和data提供的信息，将输入数据转成一种特殊的数据结构
                              fetch_list=[avg_cost])    
-        if batch_id % 40 == 0:
-            print("Pass:%d, Cost:%0.5f" % (pass_id, train_cost[0][0]))    #打印最后一个batch的损失值
-        iter=iter+BATCH_SIZE
+        # if batch_id % 40 == 0:
+        #     print("Pass:%d, Cost:%0.5f" % (pass_id, train_cost[0][0]))    #打印最后一个batch的损失值
+        iter = iter + BATCH_SIZE
         iters.append(iter)
         train_costs.append(train_cost[0][0])
        
@@ -87,10 +91,10 @@ for pass_id in range(EPOCH_NUM):                                  #训练EPOCH_N
     # 开始测试并输出最后一个batch的损失值
     test_cost = 0
     for batch_id, data in enumerate(test_reader()):               #遍历test_reader迭代器
-        test_cost= exe.run(program=test_program, #运行测试cheng
+        test_cost= exe.run(program=test_program, # 梯度下降
                             feed=feeder.feed(data),               #喂入一个batch的测试数据
                             fetch_list=[avg_cost])                #fetch均方误差
-    print('Test:%d, Cost:%0.5f' % (pass_id, test_cost[0][0]))     #打印最后一个batch的损失值
+    # print('Test:%d, Cost:%0.5f' % (pass_id, test_cost[0][0]))     #打印最后一个batch的损失值
     
     #保存模型
     # 如果保存路径不存在就创建
@@ -102,11 +106,23 @@ fluid.io.save_inference_model(model_save_dir,   #保存推理model的路径
                                   ['x'],            #推理（inference）需要 feed 的数据
                                   [y_predict],      #保存推理（inference）结果的 Variables
                                   exe)              #exe 保存 inference model
-draw_train_process(iters,train_costs)
+
+def draw_train_process(iters,train_costs):
+    title="training cost"
+    import matplotlib.pyplot as plt
+    
+    plt.title(title, fontsize=24)
+    plt.xlabel("iter", fontsize=14)
+    plt.ylabel("cost", fontsize=14)
+    plt.plot(iters, train_costs,color='red',label='training cost') 
+    plt.grid()
+    plt.show()
+    plt.savefig("D:/git/testme/data/house_price_train_process.png")
+draw_train_process(iters, train_costs)
 
 
 
-###########################
+######### 模型预测 ################
 infer_exe = fluid.Executor(place)    #创建推测用的executor
 inference_scope = fluid.core.Scope() #Scope指定作用域
 
@@ -114,7 +130,8 @@ infer_results=[]
 groud_truths=[]
 
 #绘制真实值和预测值对比图
-def draw_infer_result(groud_truths,infer_results):
+def draw_infer_result(groud_truths, infer_results):
+    # pdb.set_trace()
     title='Boston'
     import matplotlib.pyplot as plt
     plt.title(title, fontsize=24)
@@ -126,6 +143,7 @@ def draw_infer_result(groud_truths,infer_results):
     plt.scatter(groud_truths, infer_results,color='green',label='training cost') 
     plt.grid()
     plt.show()
+    plt.savefig("D:/git/testme/data/house_price_infer_result.png")
 
 with fluid.scope_guard(inference_scope):#修改全局/默认作用域（scope）, 运行时中的所有变量都将分配给新的scope。
     #从指定目录中加载 推理model(inference model)
@@ -146,11 +164,11 @@ with fluid.scope_guard(inference_scope):#修改全局/默认作用域（scope）
                             fetch_list=fetch_targets)                       #得到推测结果 
                             
     print("infer results: (House Price)")
-    for idx, val in enumerate(results[0]):
-        print("%d: %.2f" % (idx, val))
+    for idx, val in enumerate(results[0]): # 模型预测值
+        # print("%d: %.2f" % (idx, val))
         infer_results.append(val)
     print("ground truth:")
-    for idx, val in enumerate(test_y):
-        print("%d: %.2f" % (idx, val))
+    for idx, val in enumerate(test_y): # 真实值
+        # print("%d: %.2f" % (idx, val))
         groud_truths.append(val)
     draw_infer_result(groud_truths,infer_results)
