@@ -1,0 +1,396 @@
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 1 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][30998][4568741312] Process pid is 30998
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 1 - worker pid is 30998, <bound method Worker.is_alive of <Worker(Worker-1, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 2 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][30999][4568741312] Process pid is 30999
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 2 - worker pid is 30999, <bound method Worker.is_alive of <Worker(Worker-2, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 3 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31000][4568741312] Process pid is 31000
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 3 - worker pid is 31000, <bound method Worker.is_alive of <Worker(Worker-3, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 4 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31001][4568741312] Process pid is 31001
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][30998][4568741312] Process pid is 30998 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 4 - worker pid is 31001, <bound method Worker.is_alive of <Worker(Worker-4, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 5 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31002][4568741312] Process pid is 31002
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][30999][4568741312] Process pid is 30999 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 5 - worker pid is 31002, <bound method Worker.is_alive of <Worker(Worker-5, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 6 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31003][4568741312] Process pid is 31003
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31000][4568741312] Process pid is 31000 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 6 - worker pid is 31003, <bound method Worker.is_alive of <Worker(Worker-6, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 7 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31001][4568741312] Process pid is 31001 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31004][4568741312] Process pid is 31004
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 7 - worker pid is 31004, <bound method Worker.is_alive of <Worker(Worker-7, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 8 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31005][4568741312] Process pid is 31005
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 8 - worker pid is 31005, <bound method Worker.is_alive of <Worker(Worker-8, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 9 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31002][4568741312] Process pid is 31002 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31006][4568741312] Process pid is 31006
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 9 - worker pid is 31006, <bound method Worker.is_alive of <Worker(Worker-9, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 10 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31003][4568741312] Process pid is 31003 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31007][4568741312] Process pid is 31007
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 10 - worker pid is 31007, <bound method Worker.is_alive of <Worker(Worker-10, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31004][4568741312] Process pid is 31004 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 11 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31008][4568741312] Process pid is 31008
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 11 - worker pid is 31008, <bound method Worker.is_alive of <Worker(Worker-11, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 12 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31005][4568741312] Process pid is 31005 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31009][4568741312] Process pid is 31009
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 12 - worker pid is 31009, <bound method Worker.is_alive of <Worker(Worker-12, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 13 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31006][4568741312] Process pid is 31006 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31007][4568741312] Process pid is 31007 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31010][4568741312] Process pid is 31010
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 13 - worker pid is 31010, <bound method Worker.is_alive of <Worker(Worker-13, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 14 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31011][4568741312] Process pid is 31011
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31008][4568741312] Process pid is 31008 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 14 - worker pid is 31011, <bound method Worker.is_alive of <Worker(Worker-14, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 15 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31012][4568741312] Process pid is 31012
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 15 - worker pid is 31012, <bound method Worker.is_alive of <Worker(Worker-15, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 16 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31009][4568741312] Process pid is 31009 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31013][4568741312] Process pid is 31013
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 16 - worker pid is 31013, <bound method Worker.is_alive of <Worker(Worker-16, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 17 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31010][4568741312] Process pid is 31010 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31014][4568741312] Process pid is 31014
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 17 - worker pid is 31014, <bound method Worker.is_alive of <Worker(Worker-17, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 18 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31011][4568741312] Process pid is 31011 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31015][4568741312] Process pid is 31015
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 18 - worker pid is 31015, <bound method Worker.is_alive of <Worker(Worker-18, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 19 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31012][4568741312] Process pid is 31012 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31016][4568741312] Process pid is 31016
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 19 - worker pid is 31016, <bound method Worker.is_alive of <Worker(Worker-19, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 20 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31013][4568741312] Process pid is 31013 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31017][4568741312] Process pid is 31017
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 20 - worker pid is 31017, <bound method Worker.is_alive of <Worker(Worker-20, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 21 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31014][4568741312] Process pid is 31014 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 21 - worker pid is 31018, <bound method Worker.is_alive of <Worker(Worker-21, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 22 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31018][4568741312] Process pid is 31018
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31015][4568741312] Process pid is 31015 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31019][4568741312] Process pid is 31019
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 22 - worker pid is 31019, <bound method Worker.is_alive of <Worker(Worker-22, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 23 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31016][4568741312] Process pid is 31016 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31020][4568741312] Process pid is 31020
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 23 - worker pid is 31020, <bound method Worker.is_alive of <Worker(Worker-23, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 24 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31017][4568741312] Process pid is 31017 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31021][4568741312] Process pid is 31021
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 24 - worker pid is 31021, <bound method Worker.is_alive of <Worker(Worker-24, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 25 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31018][4568741312] Process pid is 31018 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31022][4568741312] Process pid is 31022
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 25 - worker pid is 31022, <bound method Worker.is_alive of <Worker(Worker-25, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 26 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31019][4568741312] Process pid is 31019 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31023][4568741312] Process pid is 31023
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 26 - worker pid is 31023, <bound method Worker.is_alive of <Worker(Worker-26, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 27 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31020][4568741312] Process pid is 31020 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 27 - worker pid is 31024, <bound method Worker.is_alive of <Worker(Worker-27, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31024][4568741312] Process pid is 31024
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 28 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31021][4568741312] Process pid is 31021 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31025][4568741312] Process pid is 31025
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 28 - worker pid is 31025, <bound method Worker.is_alive of <Worker(Worker-28, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 29 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31022][4568741312] Process pid is 31022 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31026][4568741312] Process pid is 31026
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 29 - worker pid is 31026, <bound method Worker.is_alive of <Worker(Worker-29, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 30 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31023][4568741312] Process pid is 31023 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 30 - worker pid is 31027, <bound method Worker.is_alive of <Worker(Worker-30, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31027][4568741312] Process pid is 31027
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 31 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31024][4568741312] Process pid is 31024 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31028][4568741312] Process pid is 31028
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 31 - worker pid is 31028, <bound method Worker.is_alive of <Worker(Worker-31, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 32 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31025][4568741312] Process pid is 31025 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 32 - worker pid is 31029, <bound method Worker.is_alive of <Worker(Worker-32, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 33 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31029][4568741312] Process pid is 31029
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31026][4568741312] Process pid is 31026 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 33 - worker pid is 31030, <bound method Worker.is_alive of <Worker(Worker-33, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 34 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31030][4568741312] Process pid is 31030
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31031][4568741312] Process pid is 31031
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31027][4568741312] Process pid is 31027 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 34 - worker pid is 31031, <bound method Worker.is_alive of <Worker(Worker-34, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 35 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31028][4568741312] Process pid is 31028 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31032][4568741312] Process pid is 31032
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 35 - worker pid is 31032, <bound method Worker.is_alive of <Worker(Worker-35, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 36 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31033][4568741312] Process pid is 31033
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 36 - worker pid is 31033, <bound method Worker.is_alive of <Worker(Worker-36, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 37 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31029][4568741312] Process pid is 31029 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31030][4568741312] Process pid is 31030 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31034][4568741312] Process pid is 31034
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 37 - worker pid is 31034, <bound method Worker.is_alive of <Worker(Worker-37, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 38 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31031][4568741312] Process pid is 31031 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31035][4568741312] Process pid is 31035
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 38 - worker pid is 31035, <bound method Worker.is_alive of <Worker(Worker-38, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 39 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31032][4568741312] Process pid is 31032 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31036][4568741312] Process pid is 31036
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 39 - worker pid is 31036, <bound method Worker.is_alive of <Worker(Worker-39, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 40 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31033][4568741312] Process pid is 31033 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31037][4568741312] Process pid is 31037
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 40 - worker pid is 31037, <bound method Worker.is_alive of <Worker(Worker-40, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 41 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31034][4568741312] Process pid is 31034 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31038][4568741312] Process pid is 31038
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 41 - worker pid is 31038, <bound method Worker.is_alive of <Worker(Worker-41, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 42 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31035][4568741312] Process pid is 31035 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31039][4568741312] Process pid is 31039
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 42 - worker pid is 31039, <bound method Worker.is_alive of <Worker(Worker-42, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 43 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31036][4568741312] Process pid is 31036 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31040][4568741312] Process pid is 31040
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 43 - worker pid is 31040, <bound method Worker.is_alive of <Worker(Worker-43, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 44 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31037][4568741312] Process pid is 31037 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31041][4568741312] Process pid is 31041
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 44 - worker pid is 31041, <bound method Worker.is_alive of <Worker(Worker-44, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 45 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31038][4568741312] Process pid is 31038 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31042][4568741312] Process pid is 31042
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 45 - worker pid is 31042, <bound method Worker.is_alive of <Worker(Worker-45, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 46 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31039][4568741312] Process pid is 31039 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31043][4568741312] Process pid is 31043
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 46 - worker pid is 31043, <bound method Worker.is_alive of <Worker(Worker-46, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 47 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31040][4568741312] Process pid is 31040 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 47 - worker pid is 31044, <bound method Worker.is_alive of <Worker(Worker-47, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31044][4568741312] Process pid is 31044
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 48 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31041][4568741312] Process pid is 31041 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31045][4568741312] Process pid is 31045
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 48 - worker pid is 31045, <bound method Worker.is_alive of <Worker(Worker-48, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 49 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31042][4568741312] Process pid is 31042 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 49 - worker pid is 31046, <bound method Worker.is_alive of <Worker(Worker-49, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 50 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31046][4568741312] Process pid is 31046
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31043][4568741312] Process pid is 31043 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31047][4568741312] Process pid is 31047
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 50 - worker pid is 31047, <bound method Worker.is_alive of <Worker(Worker-50, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 51 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31044][4568741312] Process pid is 31044 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 51 - worker pid is 31048, <bound method Worker.is_alive of <Worker(Worker-51, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 52 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31048][4568741312] Process pid is 31048
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31045][4568741312] Process pid is 31045 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31049][4568741312] Process pid is 31049
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 52 - worker pid is 31049, <bound method Worker.is_alive of <Worker(Worker-52, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 53 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31046][4568741312] Process pid is 31046 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31050][4568741312] Process pid is 31050
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 53 - worker pid is 31050, <bound method Worker.is_alive of <Worker(Worker-53, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 54 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31047][4568741312] Process pid is 31047 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31051][4568741312] Process pid is 31051
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 54 - worker pid is 31051, <bound method Worker.is_alive of <Worker(Worker-54, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 55 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31048][4568741312] Process pid is 31048 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31052][4568741312] Process pid is 31052
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 55 - worker pid is 31052, <bound method Worker.is_alive of <Worker(Worker-55, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 56 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31049][4568741312] Process pid is 31049 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31053][4568741312] Process pid is 31053
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 56 - worker pid is 31053, <bound method Worker.is_alive of <Worker(Worker-56, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 57 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31050][4568741312] Process pid is 31050 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 57 - worker pid is 31054, <bound method Worker.is_alive of <Worker(Worker-57, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 58 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31054][4568741312] Process pid is 31054
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31051][4568741312] Process pid is 31051 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31055][4568741312] Process pid is 31055
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 58 - worker pid is 31055, <bound method Worker.is_alive of <Worker(Worker-58, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 59 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31052][4568741312] Process pid is 31052 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 59 - worker pid is 31056, <bound method Worker.is_alive of <Worker(Worker-59, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 60 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31056][4568741312] Process pid is 31056
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31053][4568741312] Process pid is 31053 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31057][4568741312] Process pid is 31057
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 60 - worker pid is 31057, <bound method Worker.is_alive of <Worker(Worker-60, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 61 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31054][4568741312] Process pid is 31054 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31058][4568741312] Process pid is 31058
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 61 - worker pid is 31058, <bound method Worker.is_alive of <Worker(Worker-61, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 62 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31055][4568741312] Process pid is 31055 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31059][4568741312] Process pid is 31059
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 62 - worker pid is 31059, <bound method Worker.is_alive of <Worker(Worker-62, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 63 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31056][4568741312] Process pid is 31056 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31060][4568741312] Process pid is 31060
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 63 - worker pid is 31060, <bound method Worker.is_alive of <Worker(Worker-63, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 64 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31057][4568741312] Process pid is 31057 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31061][4568741312] Process pid is 31061
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 64 - worker pid is 31061, <bound method Worker.is_alive of <Worker(Worker-64, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 65 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31058][4568741312] Process pid is 31058 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31062][4568741312] Process pid is 31062
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 65 - worker pid is 31062, <bound method Worker.is_alive of <Worker(Worker-65, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 66 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31059][4568741312] Process pid is 31059 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31063][4568741312] Process pid is 31063
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 66 - worker pid is 31063, <bound method Worker.is_alive of <Worker(Worker-66, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 67 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31060][4568741312] Process pid is 31060 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31064][4568741312] Process pid is 31064
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 67 - worker pid is 31064, <bound method Worker.is_alive of <Worker(Worker-67, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 68 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31061][4568741312] Process pid is 31061 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31065][4568741312] Process pid is 31065
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 68 - worker pid is 31065, <bound method Worker.is_alive of <Worker(Worker-68, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 69 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31062][4568741312] Process pid is 31062 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 69 - worker pid is 31066, <bound method Worker.is_alive of <Worker(Worker-69, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 70 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31066][4568741312] Process pid is 31066
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31063][4568741312] Process pid is 31063 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31067][4568741312] Process pid is 31067
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 70 - worker pid is 31067, <bound method Worker.is_alive of <Worker(Worker-70, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 71 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31064][4568741312] Process pid is 31064 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 71 - worker pid is 31068, <bound method Worker.is_alive of <Worker(Worker-71, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31068][4568741312] Process pid is 31068
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 72 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31065][4568741312] Process pid is 31065 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31069][4568741312] Process pid is 31069
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 72 - worker pid is 31069, <bound method Worker.is_alive of <Worker(Worker-72, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 73 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31066][4568741312] Process pid is 31066 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31070][4568741312] Process pid is 31070
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 73 - worker pid is 31070, <bound method Worker.is_alive of <Worker(Worker-73, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 74 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31067][4568741312] Process pid is 31067 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31071][4568741312] Process pid is 31071
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 74 - worker pid is 31071, <bound method Worker.is_alive of <Worker(Worker-74, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 75 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31068][4568741312] Process pid is 31068 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31072][4568741312] Process pid is 31072
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 75 - worker pid is 31072, <bound method Worker.is_alive of <Worker(Worker-75, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 76 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31069][4568741312] Process pid is 31069 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 76 - worker pid is 31073, <bound method Worker.is_alive of <Worker(Worker-76, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31073][4568741312] Process pid is 31073
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 77 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31070][4568741312] Process pid is 31070 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31074][4568741312] Process pid is 31074
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 77 - worker pid is 31074, <bound method Worker.is_alive of <Worker(Worker-77, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 78 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31071][4568741312] Process pid is 31071 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31075][4568741312] Process pid is 31075
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 78 - worker pid is 31075, <bound method Worker.is_alive of <Worker(Worker-78, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 79 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31072][4568741312] Process pid is 31072 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31076][4568741312] Process pid is 31076
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 79 - worker pid is 31076, <bound method Worker.is_alive of <Worker(Worker-79, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 80 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31073][4568741312] Process pid is 31073 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31077][4568741312] Process pid is 31077
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 80 - worker pid is 31077, <bound method Worker.is_alive of <Worker(Worker-80, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 81 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31074][4568741312] Process pid is 31074 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31078][4568741312] Process pid is 31078
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 81 - worker pid is 31078, <bound method Worker.is_alive of <Worker(Worker-81, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 82 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31079][4568741312] Process pid is 31079
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 82 - worker pid is 31079, <bound method Worker.is_alive of <Worker(Worker-82, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 83 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31075][4568741312] Process pid is 31075 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31076][4568741312] Process pid is 31076 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31080][4568741312] Process pid is 31080
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 83 - worker pid is 31080, <bound method Worker.is_alive of <Worker(Worker-83, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 84 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31077][4568741312] Process pid is 31077 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31081][4568741312] Process pid is 31081
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 84 - worker pid is 31081, <bound method Worker.is_alive of <Worker(Worker-84, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 85 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31078][4568741312] Process pid is 31078 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 85 - worker pid is 31082, <bound method Worker.is_alive of <Worker(Worker-85, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31082][4568741312] Process pid is 31082
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 86 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31079][4568741312] Process pid is 31079 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31083][4568741312] Process pid is 31083
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 86 - worker pid is 31083, <bound method Worker.is_alive of <Worker(Worker-86, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 87 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31080][4568741312] Process pid is 31080 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 87 - worker pid is 31084, <bound method Worker.is_alive of <Worker(Worker-87, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 88 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31084][4568741312] Process pid is 31084
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 88 - worker pid is 31085, <bound method Worker.is_alive of <Worker(Worker-88, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 89 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31085][4568741312] Process pid is 31085
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31081][4568741312] Process pid is 31081 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31082][4568741312] Process pid is 31082 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31086][4568741312] Process pid is 31086
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 89 - worker pid is 31086, <bound method Worker.is_alive of <Worker(Worker-89, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 90 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31083][4568741312] Process pid is 31083 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 90 - worker pid is 31087, <bound method Worker.is_alive of <Worker(Worker-90, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 91 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31087][4568741312] Process pid is 31087
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31084][4568741312] Process pid is 31084 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31088][4568741312] Process pid is 31088
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 91 - worker pid is 31088, <bound method Worker.is_alive of <Worker(Worker-91, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 92 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31085][4568741312] Process pid is 31085 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31089][4568741312] Process pid is 31089
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 92 - worker pid is 31089, <bound method Worker.is_alive of <Worker(Worker-92, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 93 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31086][4568741312] Process pid is 31086 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 93 - worker pid is 31090, <bound method Worker.is_alive of <Worker(Worker-93, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 94 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31090][4568741312] Process pid is 31090
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 94 - worker pid is 31091, <bound method Worker.is_alive of <Worker(Worker-94, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31091][4568741312] Process pid is 31091
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 95 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31087][4568741312] Process pid is 31087 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 95 - worker pid is 31092, <bound method Worker.is_alive of <Worker(Worker-95, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 96 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31092][4568741312] Process pid is 31092
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31088][4568741312] Process pid is 31088 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31089][4568741312] Process pid is 31089 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 96 - worker pid is 31093, <bound method Worker.is_alive of <Worker(Worker-96, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 97 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31093][4568741312] Process pid is 31093
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31090][4568741312] Process pid is 31090 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31094][4568741312] Process pid is 31094
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 97 - worker pid is 31094, <bound method Worker.is_alive of <Worker(Worker-97, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 98 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31091][4568741312] Process pid is 31091 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31095][4568741312] Process pid is 31095
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 98 - worker pid is 31095, <bound method Worker.is_alive of <Worker(Worker-98, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:49][30997][4568741312] no. 99 - create worker
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:53][30997][4568741312] no. 99 - worker pid is 31096, <bound method Worker.is_alive of <Worker(Worker-99, started)>>
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:37][31096][4568741312] Process pid is 31096
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31092][4568741312] Process pid is 31092 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31093][4568741312] Process pid is 31093 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31094][4568741312] Process pid is 31094 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31095][4568741312] Process pid is 31095 end
+INFO:[2020-07-22 10:26:03][multiprocess_hang2.py:43][31096][4568741312] Process pid is 31096 end
